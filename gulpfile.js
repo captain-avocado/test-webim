@@ -1,6 +1,7 @@
 require('./gulp/tasks/scripts');
 require('./gulp/tasks/styles');
 require('./gulp/tasks/images');
+require('./gulp/tasks/svg');
 require('./gulp/tasks/copy');
 require('./gulp/tasks/lint');
 require('./gulp/tasks/clean');

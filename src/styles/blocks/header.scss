@@ -1,8 +1,12 @@
-html {
-  font-family: 'Montserrat';
-  font-size: 16px;
-}
+.header {
+  display: flex;
+  justify-content: center;
 
-h1 {
-  color: crimson;
+  &__main {
+    display: flex;
+  }
+
+  &__logo {
+    margin-right: auto;
+  }
 }

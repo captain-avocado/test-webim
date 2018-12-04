@@ -27,6 +27,7 @@ const config = {
     styles: srcPath + 'styles/',
     scripts: srcPath + 'scripts/',
     images: srcPath + 'images/',
+    svg: srcPath + 'images/icons/',
     fonts: srcPath + 'fonts/',
     lib: srcPath + 'lib/',
     static: srcPath + 'static/'
@@ -37,6 +38,7 @@ const config = {
     styles: destPath + 'styles/',
     scripts: destPath + 'scripts/',
     images: destPath + 'images/',
+    svg: destPath + 'images/icons/',
     fonts: destPath + 'fonts/',
     lib: destPath + 'lib/',
   }

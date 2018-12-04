@@ -1,5 +1,7 @@
-export default (a, b) =>{
-    console.log('hello!' + a +b);
-    const x = 5;
-    console.log(x+x+ 2123+x);
-};
+export default function hamburgers() {
+    const hamburger = document.querySelector('.hamburger');
+    hamburger.addEventListener('click', () => {
+        console.log('click');
+        hamburger.classList.toggle('is-active');
+    });
+}

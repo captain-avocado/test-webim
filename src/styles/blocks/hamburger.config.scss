@@ -1,0 +1,7 @@
+$hamburger-layer-height   : 2px;
+$hamburger-layer-spacing  : 8px;
+$hamburger-active-layer-color: $text-burgundy;
+$hamburger-layer-color: $text-burgundy;
+
+@import "../../../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
+

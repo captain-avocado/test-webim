@@ -4,7 +4,7 @@ const config = require('../config');
 function build(cb) {
   return gulp.series(
     gulp.parallel('lint', 'clean'),
-    gulp.parallel('styles', 'images', 'scripts', 'copy'),
+    gulp.parallel('styles', 'images', 'svg', 'scripts', 'copy'),
   )(cb);
 }
 

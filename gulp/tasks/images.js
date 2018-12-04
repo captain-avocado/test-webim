@@ -9,7 +9,7 @@ const config = require('../config');
 
 function images() {
   return gulp
-    .src(config.src.images + '**/*')
+    .src([config.src.images + '**/*', `!${config.src.svg}*.svg`])
     .pipe(gulpif(isFile, cache(imagemin({
       optimizationLevel: 7,
       progressive: true,
