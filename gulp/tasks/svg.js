@@ -11,10 +11,6 @@ const svgConfig = {
   mode: {
       symbol: {
           sprite: '../sprite.svg',
-          //todo = env vars does not stable
-          // example: process.env.NODE_ENV === 'development' ? log(process.env.NODE_ENV, '**') : {
-          //     dest: '../tmp/spriteSvgDemo.html'
-          // }
       }
   }
 };
@@ -38,7 +34,7 @@ function svg() {
       }))
       .pipe(replace('&gt;', '>'))
       .pipe(svgSprite(svgConfig))
-      .pipe(gulp.dest(config.dest.svg));
+      .pipe(gulp.dest(config.dest.images));
 }
 
 gulp.task('svg', svg);

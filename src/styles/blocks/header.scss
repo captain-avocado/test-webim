@@ -1,12 +1,8 @@
 .header {
-  display: flex;
-  justify-content: center;
+  height: 50px;
 
-  &__main {
-    display: flex;
+  @include phones {
+    height: 20px;
   }
 
-  &__logo {
-    margin-right: auto;
-  }
 }

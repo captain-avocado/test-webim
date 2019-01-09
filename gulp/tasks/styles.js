@@ -4,6 +4,7 @@ const sassGlob = require('gulp-sass-glob');
 const sourcemaps = require('gulp-sourcemaps');
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
+const pxtorem = require('postcss-pxtorem');
 const cssnano = require('cssnano');
 
 const log = require('fancy-log');
@@ -11,6 +12,15 @@ const colors = require('ansi-colors');
 const config = require('../config');
 
 const processors = [
+  pxtorem({
+    rootValue: 16,
+    unitPrecision: 5,
+    propList: ['*'],
+    selectorBlackList: [],
+    replace: true,
+    mediaQuery: true,
+    minPixelValue: 0
+  }),
   autoprefixer({
     browsers: ['last 4 version'],
     cascade: false
