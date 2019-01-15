@@ -26,7 +26,13 @@
   }
 
   &--inst-preview, &--inst-code, &--inst-app {
+    padding-top: 80px;
     padding-bottom: 80px;
+  }
+
+  &--more {
+    padding-top: 48px;
+    padding-bottom: 10px;
   }
 
   &__preview {
@@ -73,7 +79,7 @@
       font-size: 18px;
     }
 
-    &--smal-mt {
+    &--small-mt {
       margin-top: 15px;
     }
 
