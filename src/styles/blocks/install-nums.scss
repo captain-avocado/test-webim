@@ -1,0 +1,7 @@
+.install-nums {
+  display: flex;
+
+  &__item:not(:last-child) {
+    margin-right: 145px;
+  }
+}

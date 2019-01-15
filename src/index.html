@@ -4,12 +4,365 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/brands.css" integrity="sha384-1KLgFVb/gHrlDGLFPgMbeedi6tQBLcWvyNUN+YKXbD7ZFbjX6BLpMDf0PJ32XJfX" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles/main.css">
-  <title>Каталог</title>
+  <title>Страница</title>
 </head>
-<body>
-  <header class="header"></header>
-
+<body class="body">
+  <div class="wrapper">
+    <header class="header">
+      <div class="container header__container container--wide">
+        <img src="images/bg/header-bg.png" class="header__bg"/>
+          <div class="header__left">
+              <ul class="menu header__menu header__menu--left">
+                <li class="menu__item">
+                  <a href="#" class="menu__link">
+                    Вход
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">
+                    Регистрация
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="header__right">
+              <ul class="menu header__menu header__menu--right">
+                <li class="menu__item">
+                  <a href="#" class="menu__link">
+                    Возможности
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">
+                    Тарифы
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">
+                    Партнерам
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">
+                    Помощь
+                  </a>
+                </li>
+              </ul>
+              <a href="#" class="header__logo logo">
+                <img src="images/content/logo_head.svg" class="logo__svg"></img>
+              </a>
+            </div>
+      </div>
+    </header>
+    <section class="section section--info">
+      <div class="container section__container">
+        <div class="section__preview">
+          <div class="section__title">установка webim</div>
+          <div class="section__text">Установка онлайн-консультанта Webim на ваш сайт не займет много времени. Вы можете установить онлайн-консультант Webim на ваш сайт и протестировать его в течение 7 дней бесплатно.</div>
+        </div>
+        <div class="section__content">
+          <ul class="section__btns">
+            <li class="section__btn">
+              <button type="button" class="btn btn--turq is-active">Попробовать бесплатно</button>
+            </li>
+            <li class="section__btn">
+              <button type="button" class="btn btn--viol">Тарифы</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section section--inst-preview">
+      <div class="container section__container">
+        <div class="section__preview">
+          <div class="section__title">Простая установка</div>
+          <div class="section__text">Установка онлайн-консультанта Webim не займет более 15 минут</div>
+        </div>
+        <div class="section__content">
+          <ul class="install-nums">
+              <li class="install-nums__item install-num">
+                  <a href="#" class="install-num__link">
+                    <div class="install-num__box">
+                      <div class="install-num__img-box">
+                        <img src="images/content/reg.png" alt="code" class="install-num__img">
+                        <div class="install-num__num">1</div>
+                      </div>
+                    </div>
+                    <div class="install-num__text anchor-text">
+                      Регистрация
+                    </div>
+                  </a>
+                </li>
+            <li class="install-nums__item install-num">
+              <a href="#" class="install-num__link">
+                  <div class="install-num__box">
+                      <div class="install-num__img-box">
+                        <img src="images/content/code.png" alt="code" class="install-num__img">
+                        <div class="install-num__num">2</div>
+                      </div>
+                    </div>
+                <div class="install-num__text anchor-text">
+                    Установка HTML-кода
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section section--inst-code">
+      <div class="container section__container">
+        <div class="section__preview">
+          <div class="section__title">Установка html кода</div>
+        </div>
+        <div class="section__content">
+          <ul class="list">
+            <li class="list__item item">
+              <a href="#" class="item__title anchor-text">Установка HTML-кода Webim для сайтов на Joomla</a>
+              <div class="item__descr">Документация по внедрению сервиса Webim на сайтах, построенных на базе <strong class="item__strong">CMS Joomla.</strong></div>
+            </li>
+            <li class="list__item item">
+              <a href="#" class="item__title anchor-text">Установка HTML-кода Webim для сайтов на Wordpress</a>
+              <div class="item__descr">Документация по внедрению сервиса Webim на сайтах, построенных на базе <strong class="item__strong">Wordpress.</strong></div>
+            </li>
+            <li class="list__item item">
+              <a href="#" class="item__title anchor-text">Установка HTML-кода Webim для сайтов на uCoz.ru</a>
+              <div class="item__descr">Документация по внедрению сервиса Webim на сайтах, построенных на базе <strong class="item__strong">uCoz.ru.</strong></div>
+            </li>
+            <li class="list__item item">
+              <a href="#" class="item__title anchor-text">Установка HTML-кода Webim для сайтов на webasyst.ru</a>
+              <div class="item__descr">Документация по внедрению сервиса Webim на сайтах, построенных на базе <strong class="item__strong">webasyst.ru.</strong></div>
+            </li>
+            <li class="list__item item">
+              <a href="#" class="item__title anchor-text">Установка HTML-кода Webim для любого сайта</a>
+              <div class="item__descr">Документация по внедрению сервиса Webim на сайтах с другой CMS или написанных вручную.</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section section--inst-app">
+        <div class="container section__container">
+          <div class="section__preview">
+            <div class="section__title">Установка приложения для операторов webim dashboard</div>
+            <div class="section__text">Чтобы быть на связи с клиентами всегда, установите приложение Webim Dashboard</div>
+          </div>
+          <div class="section__content">
+            <ul class="list">
+              <li class="list__item item">
+                <a href="#" class="item__title anchor-text">Установка приложения Webim Dashboard для iPhone</a>
+                <div class="item__descr">Документация по установке дополнительного программного обеспечения для операторов <strong class="item__strong">сервиса Webim</strong>, использующих iPhone/iPad/etc от компании Apple.</div>
+              </li>
+              <li class="list__item item">
+                <a href="#" class="item__title anchor-text">Установка приложения Webim Dashboard для Android</a>
+                <div class="item__descr">Документация по установке дополнительного программного обеспечения для операторов <strong class="item__strong">сервиса Webim</strong>, использующих платформу Google Android.</div>
+              </li>
+              <li class="list__item item">
+                <a href="#" class="item__title anchor-text">Установка приложения Webim Dashboard для Ubuntu</a>
+                <div class="item__descr">Документация по установке дополнительного программного обеспечения для операторов <strong class="item__strong">сервиса Webim</strong>, использующих платформу Ubuntu.</div>
+              </li>
+              <li class="list__item item">
+                <a href="#" class="item__title anchor-text">Установка приложения Webim Dashboard</a>
+                <div class="item__descr">Документация по установке дополнительного программного обеспечения для операторов <strong class="item__strong">сервиса Webim</strong>, под ОС Microsoft Windows.</div>
+              </li>
+              <li class="list__item item">
+                <a href="#" class="item__title anchor-text">Установка приложения Webim Dashboard для Mac OS</a>
+                <div class="item__descr">Пошаговая инструкция создания приложения для оператора Webim для Mac OS с помощью Fluid</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    <section class="section section--after-inst">
+      <div class="container section__container">
+        <div class="section__preview">
+          <div class="section__title">Что вас ждет после установки</div>
+            <div class="section__text">Идейные соображения высшего порядка, а также сложившаяся структура организации позволяет</div>
+        </div>
+        <div class="section__content">
+          <ul class="section__icon-list icon-list">
+            <li class="icon-list__item">
+                <div class="icon-list__icon">
+                    <svg class="icon-list__svg">
+                      <use xlink:href="images/sprite.svg#icon_01"></use>
+                    </svg>
+                  </div>
+              <div class="icon-list__text">
+                <span class="icon-list__main-text">Шаг 1.</span>
+                <span class="icon-list__subtext">Создание учетной записи компании и администратора</span>
+              </div>
+            </li>
+            <li class="icon-list__item">
+                <div class="icon-list__icon">
+                    <svg class="icon-list__svg">
+                      <use xlink:href="images/sprite.svg#icon_02"></use>
+                    </svg>
+                  </div>
+              <div class="icon-list__text">
+                <span class="icon-list__main-text">Шаг 2.</span>
+                <span class="icon-list__subtext">Активация учетной записи</span>
+              </div>
+            </li>
+                <li class="icon-list__item">
+                    <div class="icon-list__icon">
+                        <svg class="icon-list__svg">
+                          <use xlink:href="images/sprite.svg#icon_03"></use>
+                        </svg>
+                      </div>
+                  <div class="icon-list__text">
+                    <span class="icon-list__main-text">Шаг 3.</span>
+                    <span class="icon-list__subtext">Начальная настройка</span>
+                  </div>
+                </li>
+                <li class="icon-list__item">
+                    <div class="icon-list__icon">
+                        <svg class="icon-list__svg">
+                          <use xlink:href="images/sprite.svg#icon_04"></use>
+                        </svg>
+                      </div>
+                  <div class="icon-list__text">
+                    <span class="icon-list__main-text">Шаг 4.</span>
+                    <span class="icon-list__subtext">Установка кнопки Webim на сайт</span>
+                  </div>
+                </li>
+                    <li class="icon-list__item">
+                        <div class="icon-list__icon">
+                            <svg class="icon-list__svg">
+                              <use xlink:href="images/sprite.svg#icon_05"></use>
+                            </svg>
+                          </div>
+                      <div class="icon-list__text">
+                        <span class="icon-list__main-text">Шаг 5.</span>
+                        <span class="icon-list__subtext">Регистрация оператора</span>
+                      </div>
+                    </li>
+                    <li class="icon-list__item">
+                      <div class="icon-list__icon">
+                        <svg class="icon-list__svg">
+                          <use xlink:href="images/sprite.svg#icon_06"></use>
+                        </svg>
+                      </div>
+                      <div class="icon-list__text">
+                        <span class="icon-list__main-text">Шаг 6.</span>
+                        <span class="icon-list__subtext">Тест сервиса</span>
+                      </div>
+                    </li>
+          </ul>
+          <ul class="section__btns btns">
+            <li class="section__btn">
+              <button type="button" class="btn btn--turq is-active">Все возможности webim</button>
+            </li>
+            <li class="section__btn">
+              <button type="button" class="btn btn--viol is-active">Протестировать бесплатно</button>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </section>
+    <section class="section section--more">
+        <div class="container section__container">
+          <div class="section__preview">
+            <div class="section__text section__text--more">Webim – это не только онлайн-консультант. Интегрируйте и другие каналы, чтобы клиенты могли обращаться к вам любым удобным способом </div>
+          </div>
+          <div class="section__content">
+            <ul class="info-list">
+              <li class="info-list__item">
+                <img src="images/content/social_network.svg" class="info-list__icon"></img>
+                <a href="#" class="info-list__link anchor-text">Социальные сети</a>
+              </li>
+              <li class="info-list__item">
+                <img src="images/content/feedback.svg" class="info-list__icon"></img>
+                <a href="#" class="info-list__link anchor-text">Форма обратной связи</a>
+              </li>
+              <li class="info-list__item">
+                  <img src="images/content/mobile_chat.svg" class="info-list__icon"></img>
+                  <a href="#" class="info-list__link anchor-text">Чат в вашем мобильном приложении</a>
+                </li>
+                <li class="info-list__item">
+                  <img src="images/content/messanger.svg" class="info-list__icon"></img>
+                  <a href="#" class="info-list__link anchor-text">Мессенджеры</a>
+                </li>
+                <li class="info-list__item">
+                    <img src="images/content/yandexd.svg" class="info-list__icon"></img>
+                    <a href="#" class="info-list__link anchor-text">Яндекс.Диалоги</a>
+                  </li>
+                  <li class="info-list__item">
+                    <img src="images/content/email.svg" class="info-list__icon"></img>
+                    <a href="#" class="info-list__link anchor-text">Электронная почта</a>
+                  </li>
+                  <li class="info-list__item">
+                      <img src="images/content/chatbot.svg" class="info-list__icon"></img>
+                      <a href="#" class="info-list__link anchor-text">Чат-боты</a>
+                    </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    <footer class="footer">
+      <div class="container footer__container container--wide">
+        <div class="footer__left">
+          <div class="footer__info">
+            <a href="#" class="footer__logo logo">
+              <img src="images/content/logo_footer.svg" class="logo__svg"></img>
+            </a>
+            <div class="footer__info-text">
+              <div class="footer__info-row">Webim 2008-2017</div>
+              <div class="footer__info-row">Все права защищены</div>
+            </div>
+          </div>
+          <address class="footer__tel">
+            <div class="footer__tel-main">
+              <img src="images/content/phone.png" class="footer__tel-icon"/>
+              <div class="footer__tel-maintext">+7 (800) 500-49-32</div>
+            </div>
+            <div class="footer__tel-row">
+              <div class="footer__tel-text">+7 (499) 322-37-54</div>
+              <div class="footer__tel-subtext">Москва, Серебряническая набережная, 29</div>
+            </div>
+            <div class="footer__tel-row">
+              <div class="footer__tel-text">+7 (499) 322-37-54</div>
+              <div class="footer__tel-subtext">Санкт-Петербург, Чкаловский проспект, 15</div>
+            </div>
+          </address>
+        </div>
+        <div class="footer__right">
+          <address class="footer__contacts">
+            <div class="footer__emails">
+              <a href="mailto:contact@webim.ru">contact@webim.ru</a>
+              <a href="mailto:sales@webim.ru">sales@webim.ru</a>
+            </div>
+            <div class="footer__working-time">понедельник - пятница с 10.00 - 18.00</div>
+            <ul class="footer__socials socials">
+              <li class="socials__item">
+                <a href="#" class="socials__link">
+                  <i class="fab fa-vk"></i>
+                </a>
+              </li>
+              <li class="socials__item">
+                  <a href="#" class="socials__link">
+                      <i class="fab fa-facebook-f"></i>
+                  </a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link">
+                  <i class="fab fa-skype"></i>
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
+    </footer>
+  </div>
   <script src="./scripts/main.js"></script>
 </body>
 </html>

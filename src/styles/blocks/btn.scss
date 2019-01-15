@@ -1,0 +1,31 @@
+.btn {
+  font-size: 14.4px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 20px 27px;
+
+  min-width: 257px;
+  display: flex;
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition: color .25s, background-color .25s;
+  &--turq {
+    border: 1px solid $turq-bg;
+    color: $turq-text;
+    &:hover,&.is-active {
+      background-color: $turq-bg;
+      color: #fff;
+    }
+  }
+
+  &--viol {
+    border: 1px solid $viol;
+    color: $viol;
+    &:hover,&.is-active {
+      background-color: $viol;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.info-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -35px;
+
+  @include phones {
+    margin: 0;
+  }
+
+  &__item {
+    margin-bottom: 70px;
+    width: 33%;
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+
+    @include phones {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  &__icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+  }
+
+}

@@ -1,0 +1,65 @@
+.footer {
+  background-color: $viol;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 70px;
+
+  &__left {
+    display: flex;
+  }
+
+  &__logo {
+    margin-bottom: 20px;
+  }
+
+  &__info {
+    margin-right: 190px;
+    color: #b6b9c9;
+  }
+
+  &__tel-main {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  &__tel-icon {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  &__tel-maintext {
+    font-size: 26px;
+    color: #fff;
+  }
+
+  &__tel-text {
+    font-size: 22px;
+    color: #fff;
+  }
+
+  &__tel-subtext {
+    color: #adb0c2;
+  }
+
+  &__tel-row:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  &__emails {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  &__emails-row {
+    margin-bottom: 5px;
+  }
+
+  &__working-time {
+    margin-bottom: 15px;
+    color: #adb0c2;
+  }
+}

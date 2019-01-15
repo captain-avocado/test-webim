@@ -17,22 +17,22 @@ const svgConfig = {
 
 function svg() {
   return gulp.src(config.src.svg + '*.svg')
-      .pipe(svgmin({
-          js2svg: {
-              pretty: true
-          }
-      }))
-      .pipe(cheerio({
-          run: function($) {
-              $('[fill]').removeAttr('fill');
-              $('[stroke]').removeAttr('stroke');
-              $('[style]').removeAttr('style');
-          },
-          parserOptions: {
-              xmlMode: true
-          }
-      }))
-      .pipe(replace('&gt;', '>'))
+    //   .pipe(svgmin({
+    //       js2svg: {
+    //           pretty: true
+    //       }
+    //   }))
+    //   .pipe(cheerio({
+    //       run: function($) {
+    //           $('[fill]').removeAttr('fill');
+    //           $('[stroke]').removeAttr('stroke');
+    //           $('[style]').removeAttr('style');
+    //       },
+    //       parserOptions: {
+    //           xmlMode: true
+    //       }
+    //   }))
+    //   .pipe(replace('&gt;', '>'))
       .pipe(svgSprite(svgConfig))
       .pipe(gulp.dest(config.dest.images));
 }

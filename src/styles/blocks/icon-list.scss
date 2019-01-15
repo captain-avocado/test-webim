@@ -1,0 +1,44 @@
+.icon-list {
+  display: flex;
+  flex-direction: column;
+  
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  &__svg {
+    width: 40px;
+    height: 40px;
+    fill: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__icon {
+    position: relative;
+    margin-right: 55px;  
+    width: 75px;
+    height: 75px;
+    background-color: $turq-bg;
+    border-radius: 50%;
+  }
+
+  &__main-text {
+    font-size: 24px;
+    font-weight: 600;
+    color: $viol;
+
+    margin-right: 5px;
+  }
+
+  &__subtext {
+    font-size: 18px;
+    color: $viol;
+  }
+
+
+}

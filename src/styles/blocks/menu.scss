@@ -1,0 +1,20 @@
+.menu {
+  display: flex;
+  align-items: center;
+
+  &--right {
+    display: flex;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  &__link {
+    font-size: 18px;
+    color: $viol;
+    text-transform: uppercase;
+  }
+}
