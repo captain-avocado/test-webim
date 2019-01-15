@@ -16,7 +16,7 @@
 }
 
 .section {
-  padding: 80px 0 90px 0;
+  padding: 69px 0 90px 0;
   display: flex;
   justify-content: center;
   
@@ -26,6 +26,20 @@
 
   &__preview {
     margin-bottom: 80px;
+
+    &--info {
+      max-width: 615px;
+    }
+    
+    &--more {
+      max-width: 650px;
+    }
+  }
+
+  &__content {
+    &--inst-app {
+      max-width: 790px;
+    }
   }
 
   &__title {
@@ -33,6 +47,11 @@
     font-weight: 600;
     color: $viol;
     text-transform: uppercase;
+    letter-spacing: 2px;
+
+    &--main {
+      font-size: 36px;
+    }
   }
 
   &__text {
