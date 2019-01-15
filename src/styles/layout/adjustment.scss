@@ -17,11 +17,16 @@
 
 .section {
   padding: 68px 0 65px 0;
+  
   display: flex;
   justify-content: center;
   
   &--info, &--inst-code, &--after-inst {
     background-color: $gray-section;
+  }
+
+  &--inst-preview, &--inst-code, &--inst-app {
+    padding-bottom: 80px;
   }
 
   &__preview {
