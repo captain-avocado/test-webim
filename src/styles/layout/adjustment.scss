@@ -4,6 +4,18 @@
   color: $gray-text;
 }
 
+.wrapper {
+  padding-top: 101px;
+
+  @include tablets {
+    padding-top: 158px;
+  }
+
+  @include phones-small {
+    padding-top: 84px;
+  }
+}
+
 .container {
   max-width: 1020px;
   width: 90%;
