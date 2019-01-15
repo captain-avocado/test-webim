@@ -17,7 +17,7 @@
 }
 
 @mixin phones-small {
-  @media (max-width: 320px) {
+  @media (max-width: 420px) {
     @content;
   }
 }

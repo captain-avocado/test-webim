@@ -7,6 +7,10 @@
 
   @include tablets {
     padding: 60px 0 50px 0;
+
+    @include phones-small {
+      padding: 30px 0;
+    }
   }
 
   &__container {
