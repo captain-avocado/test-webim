@@ -5,6 +5,16 @@
   padding: 33px 70px;
   position: relative;
 
+  @include tablets {
+    padding: 60px 0 50px 0;
+  }
+
+  &__container {
+    @include phones {
+      align-items: center;
+    }
+  }
+
   &__left {
     display: flex;
     align-items: center;
@@ -18,16 +28,31 @@
     height: 100%;
     display: block;
     z-index: -1;
+    @include tablets {
+      display: none;
+    }
   }
 
   &__right {
     display: flex;
     align-items: center;
+    @include tablets {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
 
   &__menu {
     &--right {
       margin-right: 55px;
+    }
+  }
+
+  &__hamburger {
+    display: none;
+    @include tablets {
+      display: block;
     }
   }
 }

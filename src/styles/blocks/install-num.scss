@@ -13,6 +13,15 @@
     position: relative;
   }
 
+  // &__img {
+  //   @include tablets {
+  //     position: absolute;
+  //     transform: translate(50%, -50%);
+  //     top: 50%;
+  //     left: 15%;
+  //   }
+  // }
+
   &__num {
     position: absolute;
     // z-index: -1;
@@ -24,6 +33,11 @@
     font-weight: 600;
     color: $viol;
     opacity: .2;
+
+    // @include tablets {
+    //   position: static;
+    //   transform: none;
+    // }
   }
 
   &__text {

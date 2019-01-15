@@ -11,6 +11,10 @@
 
   cursor: pointer;
 
+  @include phones {
+    width: 100%;
+  }
+
   transition: color .25s, background-color .25s;
   &--turq {
     border: 1px solid $turq-bg;

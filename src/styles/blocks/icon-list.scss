@@ -21,8 +21,8 @@
   &__icon {
     position: relative;
     margin-right: 35px;  
-    width: 75px;
-    height: 75px;
+    min-width: 75px;
+    min-height: 75px;
     background-color: $turq-bg;
     border-radius: 50%;
   }
@@ -38,6 +38,12 @@
   &__subtext {
     font-size: 18px;
     color: $viol;
+  }
+
+  &__text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
 
