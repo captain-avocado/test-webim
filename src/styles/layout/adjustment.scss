@@ -16,7 +16,7 @@
 }
 
 .section {
-  padding: 69px 0 90px 0;
+  padding: 68px 0 65px 0;
   display: flex;
   justify-content: center;
   
@@ -25,7 +25,7 @@
   }
 
   &__preview {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 
     &--info {
       max-width: 615px;
@@ -33,6 +33,10 @@
     
     &--more {
       max-width: 650px;
+    }
+
+    &--inst {
+      margin-bottom: 105px;
     }
   }
 
@@ -62,6 +66,10 @@
     &--more {
       color: $viol;
       font-size: 18px;
+    }
+
+    &--smal-mt {
+      margin-top: 15px;
     }
 
   }

@@ -5,8 +5,11 @@
     flex-direction: column;
   }
 
+  &__box {
+    margin-bottom: 32px;
+  }
+
   &__img-box {
-    margin-bottom: 45px;
     position: relative;
   }
 
@@ -21,6 +24,10 @@
     font-weight: 600;
     color: $viol;
     opacity: .2;
+  }
+
+  &__text {
+    font-size: 18px;
   }
 
 }
