@@ -45,17 +45,16 @@
     margin-right: 5px;
 
     @include phones-small {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 
   &__subtext {
     font-size: 18px;
     color: $viol;
-  }
-
-  &__text {
-    // display: flex;
+    @include phones-small {
+      font-size: 16px;
+    }
   }
 
 
