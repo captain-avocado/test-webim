@@ -1,11 +1,24 @@
 .install-nums {
   display: flex;
-  flex-wrap: wrap;
 
-  &__item:not(:last-child) {
-    margin-right: 150px;
-    @include tablets {
-      margin-bottom: 100px;
+  &__item {
+    @include phones-small {
+      flex: 1;
     }
+    &:not(:last-child) {
+      margin-right: 150px;
+      @include tablets {
+        // margin-bottom: 100px;
+      }
+  
+      @include phones-small {
+        margin-right: 0;
+        margin-bottom: 0;
+      }
+    }
+
+
   }
+  
+  
 }

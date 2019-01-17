@@ -1,4 +1,13 @@
 .install-num {
+
+  @include phones-small {
+    padding-left: 40px;
+  }
+
+  @include phones-320 {
+    padding-left: 25px;
+  }
+
   &__link {
     display: flex;
     height: 100%;
@@ -11,21 +20,18 @@
 
   &__img-box {
     position: relative;
+
+    @include phones-320 {
+      width: 10vw;
+    }
   }
 
-  // &__img {
-  //   @include tablets {
-  //     position: absolute;
-  //     transform: translate(50%, -50%);
-  //     top: 50%;
-  //     left: 15%;
-  //   }
-  // }
+  &__img {
+    max-width: 100%;
+  }
 
   &__num {
     position: absolute;
-    // z-index: -1;
-    // left: -50%;
     transform: translateX(-50%);
     bottom: -40px;
     font-size: 150px;
@@ -34,14 +40,20 @@
     color: $viol;
     opacity: .2;
 
-    // @include tablets {
-    //   position: static;
-    //   transform: none;
-    // }
+    @include phones-small {
+      font-size: 120px;
+    }
+    
+    @include phones-320 {
+      font-size: 100px;
+    }
   }
 
   &__text {
     font-size: 18px;
+    @include phones-small {
+      max-width: 110px;
+    }
   }
 
 }

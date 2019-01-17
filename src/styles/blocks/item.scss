@@ -18,6 +18,10 @@
       height: 8px;
       background-color: #3b4269;
     }
+
+    @include phones-small {
+      font-size: 18px;
+    }
   }
 
   &__descr {

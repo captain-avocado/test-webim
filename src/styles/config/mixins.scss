@@ -10,14 +10,20 @@
   }
 }
 
-@mixin phones-landscape {
-  @media (max-width: 760px) and (orientation: landscape) {
+@mixin phones-small {
+  @media (max-width: 450px) {
     @content;
   }
 }
 
-@mixin phones-small {
-  @media (max-width: 420px) {
+@mixin phones-320 {
+  @media (max-width: 320px) {
+    @content;
+  }
+}
+
+@mixin phones-landscape {
+  @media (max-width: 760px) and (orientation: landscape) {
     @content;
   }
 }
